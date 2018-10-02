@@ -1,0 +1,40 @@
+body {
+    background-image: url("Images/hout.jpg");
+}
+
+td {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+
+}
+
+table {
+    background-color: darkred;
+    border-color: darkred;
+    border-width: 5px;
+    border-style: solid;
+}
+
+section {
+    border-style: solid;
+    border-width: 5px;
+    border-color: darkred;
+    display: inline-block;
+    width: 190px;
+    height: 400px;
+    background-image: url("Images/witte-marmer.jpg");
+    float: right;
+    padding: 10px;
+    margin-right: 1050px;
+    position: relative;
+}
+
+
+.witmarmer {
+    background-image: url("Images/witte-marmer.jpg");
+}
+
+.zwartmarmer {
+    background-image: url("Images/zwarte-marmer.jpg");
+}

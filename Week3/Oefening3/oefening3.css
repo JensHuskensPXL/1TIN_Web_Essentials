@@ -1,0 +1,121 @@
+img {
+    width: 200px;
+}
+
+body {
+    font-family: Helvetica;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+
+}
+
+img:hover {
+    border-color: orangered;
+    border-style: solid;
+    border-width: 1px;
+
+ul {
+    list-style-image: url("assets/music-icon.png");
+
+}
+
+table {
+    background-color: orangered;
+    margin: 20px;
+    width: 600px;
+}
+
+th, td {
+    background-color: black;
+    padding: 5px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: white;
+
+}
+
+.link:hover {
+    font-size: larger;
+    color: orangered;
+}
+
+.button {
+    text-decoration: none;
+    border-color: whitesmoke;
+    border-style: solid;
+    border-width: thin;
+    background-color: dimgrey;
+    color: white;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.button:hover {
+    font-size: larger;
+    background-color: orangered;
+
+}
+
+.titel {
+    margin: 20px;
+
+
+}
+
+#pukkelpop {
+    border-style: solid;
+    background-color: purple;
+    margin: 50px;
+    color: white;
+    font-size: larger;
+
+}
+
+#rockwerechter{
+    border-style: solid;
+    background-color: greenyellow;
+    margin: 50px;
+    color: white;
+    font-size: larger;
+}
+
+#tomorrowland {
+    border-style: solid;
+    background-color: indianred;
+    margin: 50px;
+    color: white;
+    font-size: larger;
+}
+
+#graspop {
+    border-style: solid;
+    background-color: limegreen;
+    margin: 50px;
+    color: white;
+    font-size: larger;
+}
+
+#dour {
+    border-style: solid;
+    background-color: #a170f2;
+    margin: 50px;
+    font-size: larger;
+
+
+}
+
+.picture {
+    width: 30%;
+}
+
+
+.secondline {
+    width: 55%;
+}
+

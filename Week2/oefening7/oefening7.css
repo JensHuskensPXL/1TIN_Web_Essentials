@@ -1,0 +1,62 @@
+body {
+    background-color: black;
+
+}
+
+img {
+    width: 175px;
+
+}
+
+h1 {
+    color: #ffE14F;
+    text-align: center;
+}
+
+#buzzer {
+    border-style: solid;
+    border-color: #ffE14F;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-bottom: 10px;
+}
+
+#fart {
+    border-style: solid;
+    border-color: #ffE14F;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-bottom: 10px;
+
+}
+
+#doorbell {
+    border-style: solid;
+    border-color: #ffE14F;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-bottom: 10px;
+
+}
+
+#badumtss {
+    border-style: solid;
+    border-color: #ffE14F;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 700px;
+    margin-right: 700px;
+    margin-bottom: 10px;
+
+}
+
+section:hover {
+    background-color: #8daec6;
+
+}

@@ -1,0 +1,42 @@
+body {
+    font-family: Roboto, Helvetica;
+    color: white;
+    background-color: #c7ced8;
+
+}
+
+table {
+    text-align: center;
+    margin: 20px;
+    background-color: black;
+
+
+}
+
+thead {
+    background-color: #27426d;
+
+}
+
+tfoot {
+    background-color: #27426d;
+
+}
+
+td {
+    padding: 10px;
+}
+
+tbody tr:nth-child(2n+1) {
+    background-color: #4f8cef;
+
+}
+
+tbody tr:nth-child(2n) {
+    background-color: #6facff;
+
+}
+
+.breeder {
+    padding: 0 30px;
+}
