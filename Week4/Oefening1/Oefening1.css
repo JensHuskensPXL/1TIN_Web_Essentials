@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+}
+
+img {
+    width: 100%;
+
+}
+
+h1 {
+    color: #ffE14F;
+    text-align: center;
+}
+
+.box {
+    width: 25%;
+    float: left;
+    padding: 20px;
+    min-width: 200px;
+}
+
+.inner audio {
+    width: 100%;
+}
+
+.inner {
+    border-style: solid;
+    border-color: #ffE14F;
+    border-radius: 5px;
+    border-width: 2px;
+    text-align: center;
+    padding: 20px;
+
+}
+
+.inner:hover {
+    background-color: #8daec6;
+
+}

@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fbd1a2;
+    color: #1b5fb7;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+    float: left;
+    padding: 25px;
+}
+
+.inner {
+    height: 25vh;
+    width: 25vh;
+    padding: 20px;
+    background-color: #07c1c4;
+}
+
+.inner:hover {
+    background-color: #7dcfb6;
+}
+
+footer {
+    background-color: #f79256;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+

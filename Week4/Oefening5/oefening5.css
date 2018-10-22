@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6a7689;
+    color: white;
+    font-family: Helvetica;
+
+}
+
+.gsm1 {
+    width: 200px;
+    height: 420px;
+    background-color: darkslateblue;
+    border: 1px solid black;
+    border-radius: 20px;
+
+}
+
+.gsm1outer {
+    padding-left: 10px;
+}
+
+.gsm1 img {
+    float: left;
+    width: 90px;
+    height: 90px;
+    padding: 15px;
+}
+
+h1 {
+    font-size: 20px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 35px;
+    padding-top: 15px;
+}
+
+iframe {
+    position: relative;
+    width: 198px;
+    height: 410px;
+    top: -875px;
+    left: 260px;
+}
+
+.oneplus1 {
+    position: relative;
+    top: -440px;
+    left: -40px;
+    pointer-events: none;
+}
+
+.images {
+    padding-left: 7px;
+}
+
+.oneplus2 {
+    position: relative;
+    top: -1310px;
+    left: 210px;
+    pointer-events: none;
+}

@@ -1,0 +1,103 @@
+html {
+    font-family: Bahnschrift, sans-serif;
+    background-color: cornflowerblue;
+    font-size: 1.1em;
+}
+
+section {
+    padding: 5px;
+    width: 960px;
+    margin: 0 auto;
+    border: 2px solid darkkhaki;
+}
+
+header {
+    background-color: #1b5fb7;
+    color: cornsilk;
+}
+
+main {
+    width: 850px;
+    float: left;
+}
+
+figure {
+    border: 3px dashed #1b5fb7;
+    width: 70px;
+    float: right;
+    margin: 0;
+}
+
+
+figure img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+footer {
+    border-top: 1px solid #1b5fb7;
+    clear: both;
+    text-align:center;
+    background-color: peru;
+    color: white;
+}
+
+/* ----- Media Query below 980px ----- */
+
+@media screen and (max-width: 980px) {
+
+    figure {
+        width: 15%;
+    }
+
+    main {
+        width: 80%;
+    }
+
+    section {
+        border: none;
+        padding: 0;
+        max-width: 980px;
+    }
+
+    body {
+        margin: 0;
+    }
+}
+
+/* ----- Media query below 700 px ----- */
+
+@media screen and (max-width: 700px) {
+
+    footer {
+        display: none;
+    }
+
+    figure {
+        width: 25%;
+        float: none;
+        border: none;
+        margin: 0 auto;
+    }
+
+    figure img {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    section {
+        max-width: 700px;
+    }
+}
+
+/* ----- Media Query below 400px ----- */
+
+@media screen and (max-width: 400px) {
+
+    figure {
+        display: none;
+    }
+
+}
