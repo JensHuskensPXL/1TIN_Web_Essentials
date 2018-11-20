@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Formulier</title>
     <link rel="stylesheet" href="stijl.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
@@ -11,35 +12,53 @@
     
     <h1>Je hebt gewonnen!</h1>
     
-    <h2>Vul je gegevens in en we sturen de prijs naar jou!</h2>
+    <h4>Vul je gegevens in en we sturen de prijs naar jou!</h4>
 
-    <form action="">
+    <form action="mailto:jens.huskens@student.pxl.be">
 
         <label for="achternaam">Achternaam:</label>
-        <input type="text" name="achternaam" title="achternaam" id="achternaam">
+        <input type="text" name="achternaam" title="achternaam" id="achternaam" placeholder="Achternaam">
 
         <label for="voornaam">Voornaam:</label>
-        <input type="text" name="achternaam" title="achternaam" id="voornaam">
+        <input type="text" name="voornaam" title="voornaam" id="voornaam" placeholder="Voornaam">
+
+        <br />
+        <br />
 
         <label for="straat">Straat:</label>
-        <input type="text" name="achternaam" title="achternaam" id="straat">
+        <input type="text" name="straat" title="straat" id="straat" placeholder="straat">
 
         <label for="nummer">Nummer:</label>
-        <input type="text" name="achternaam" title="achternaam" id="nummer" maxlength="4">
+        <input type="text" name="nummer" title="nummer" id="nummer" maxlength="4">
 
+        <div class="bus">
         <label for="bus">Bus:</label>
-        <input type="text" name="achternaam" title="achternaam" id="bus" maxlength="4">
+        <input type="text" name="bus" title="bus" id="bus" maxlength="4">
+        </div>
+
+        <br />
+        <br />
 
         <label for="postcode">Postcode:</label>
-        <input type="text" name="achternaam" title="achternaam" id="postcode" maxlength="4">
+        <input type="text" name="postcode" title="postcode" id="postcode" maxlength="4">
 
         <label for="gemeente">Gemeente:</label>
-        <input type="text" name="achternaam" title="achternaam" id="gemeente">
+        <input type="text" name="gemeente" title="gemeente" id="gemeente">
 
+        <br />
+        <br />
+
+
+        <div class="textarea">
+        <label for="tekstveld">Vul hier uw vraag in:</label>
+        <textarea name="tekstveld" id="tekstveld" cols="30" rows="10" title="tekstarea"></textarea>
+        </div>
+
+        <div class="knoppen">
         <input type="submit" value="Verzenden">
 
         <input type="reset" value="Wissen">
-
+        </div>
 
 
     </form>
